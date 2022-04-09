@@ -27,7 +27,7 @@ const getData=async()=>{
   
   <h1>Rockets: </h1>
   <div className="container">
-    {!info ? 'Cargando...' :
+    {!info ? 'Cargando... ' :
     info.map((info:any,index:any)=>{
       return(
         <div className="text-center">
