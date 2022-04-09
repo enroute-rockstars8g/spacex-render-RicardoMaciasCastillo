@@ -25,7 +25,7 @@ const getData=async()=>{
   
   <>
   
-  <h1>Rockets:</h1>
+  <h1>Rockets: </h1>
   <div className="container">
     {!info ? 'Cargando' :
     info.map((info:any,index:any)=>{
