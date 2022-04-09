@@ -32,7 +32,8 @@ const getData=async()=>{
       return(
         <div className="text-center">
           <img src={info.flickr_images[0]} alt="" />
-          <h4>{info.description}</h4>
+          <h4>Name: {info.name}</h4>
+          <h3>About: {info.description}</h3>
         </div>
       )
     })}
